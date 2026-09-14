@@ -1,69 +1,75 @@
-# =============================================================================
-# HACKATHON SUBMISSION METADATA
-# =============================================================================
-# Instructions:
-#   - Fill in ALL required fields (marked with # REQUIRED)
-#   - Optional fields can be left as empty strings ""
-#   - Do NOT rename this file — the evaluation pipeline reads it by name
-#   - Use double quotes around all string values
-# =============================================================================
-
 team:
-  name: ""                             # REQUIRED — e.g., "Orion Squad"
-  track: ""                            # REQUIRED — one of: AI | DevOps | Sustainability | Open
+  name: "PharmaGuard AI"
+  track: "AI"
   lead:
-    name: ""                           # REQUIRED — e.g., "Alice Chen"
-    email: ""                          # REQUIRED — e.g., "alice.chen@ibm.com"
+    name: "Esha Ladani"
+    email: "23bph010@charusat.edu.in"
   members:
-    - name: ""                         # REQUIRED — Team member 1
-      email: ""
-    - name: ""                         # Add more members by copying the two lines above
-      email: ""
-    - name: ""
-      email: ""
+    - name: "Shawn Christian"
+      email: "23bph006@charusat.edu.in"
+    - name: "Mahee Kansara"
+      email: "23bph018@charusat.edu.in"
+    - name: "Dev Patel"
+      email: "23bph043@charusat.edu.in"
 
 submission:
-  title: ""                            # REQUIRED — Project display name, e.g., "SmartOps Dashboard"
+  title: "PharmaGuard AI: AI-Powered Pharmacovigilance and Regulatory Submission Readiness Platform"
 
-  problem_statement: >                 # REQUIRED — 1-3 sentences. What problem? Who has it?
-    Replace this text with a concise description of the real-world problem
-    your project addresses and who experiences it.
+  problem_statement: >
+    Pharmacovigilance teams need to identify potential drug safety signals from
+    adverse-event reports and assess regulatory submission readiness efficiently.
+    Manual analysis can be time-consuming and may make it difficult to prioritize
+    safety signals and identify missing CTD documentation.
 
-  solution_summary: >                  # REQUIRED — 1-3 sentences. What did you build?
-    Replace this text with a clear description of your solution
-    and how it addresses the problem above.
+  solution_summary: >
+    PharmaGuard AI is a Streamlit-based platform that combines statistical drug
+    safety signal detection using PRR and chi-square analysis with CTD regulatory
+    submission readiness assessment and an IBM watsonx.ai Granite-powered AI
+    Copilot for interpreting the analysis and generating safety and regulatory
+    summaries.
 
-  key_features:                        # REQUIRED — List 3 to 5 specific features you implemented
-    - ""                               # e.g., "Real-time pipeline anomaly detection using watsonx.ai"
-    - ""
-    - ""
-    - ""                               # optional 4th
-    - ""                               # optional 5th
+  key_features:
+    - "Drug safety signal detection using PRR and chi-square disproportionality analysis"
+    - "CTD-based regulatory submission readiness assessment"
+    - "IBM watsonx.ai Granite-powered AI Copilot"
+    - "Executive summaries combining safety and regulatory findings"
+    - "Rule-based fallback mode when AI API credentials are unavailable"
 
   tech_stack:
-    languages: []                      # REQUIRED — e.g., ["Python", "TypeScript"]
-    frameworks: []                     # e.g., ["FastAPI", "React"]
-    ibm_technologies: []               # e.g., ["watsonx.ai", "IBM Bob", "IBM Cloud Functions"]
-    databases: []                      # e.g., ["PostgreSQL", "Redis"]
-    other: []                          # e.g., ["Docker", "GitHub Actions", "Slack API"]
+    languages:
+      - "Python"
+    frameworks:
+      - "Streamlit"
+    ibm_technologies:
+      - "IBM watsonx.ai"
+      - "IBM Granite"
+      - "IBM Cloud IAM"
+      - "IBM Bob"
+    databases: []
+    other:
+      - "pandas"
+      - "requests"
+      - "GitHub Actions"
 
-  what_we_are_most_proud_of: >         # Optional but recommended — guides judges to your best work
-    Replace with what aspect of the submission you consider strongest
-    and want judges to pay special attention to.
+  what_we_are_most_proud_of: >
+    We are most proud of integrating pharmacovigilance signal detection,
+    regulatory submission readiness assessment, and IBM watsonx.ai Granite
+    assisted interpretation into one practical prototype while maintaining
+    transparent fallback behavior and clear responsible-AI limitations.
 
-  known_limitations: >                 # Optional but recommended — be honest about gaps
-    Replace with any known limitations, incomplete features,
-    or shortcuts taken due to time constraints.
+  known_limitations: >
+    The safety analysis identifies statistical disproportionality and does not
+    establish causality. The regulatory readiness score is based only on the
+    supplied checklist and is not an official regulatory determination. The
+    demonstration dataset is synthetic and substantially smaller than real-world
+    pharmacovigilance databases. AI-generated outputs require qualified expert
+    review.
 
-# =============================================================================
-# ARTIFACT LOCATIONS
-# These paths are relative to the repo root. Only change if you moved files.
-# =============================================================================
 artifacts:
   source_code: "src/"
   setup_guide: "docs/setup-guide.md"
   architecture_doc: "docs/architecture.md"
-  demo_video: "demo/demo-video-link.txt"   # URL to hosted video (YouTube, Loom, Box)
-  live_demo: "demo/live-demo-url.txt"      # URL to deployed demo (optional)
+  demo_video: "demo/demo-video-link.txt"
+  live_demo: "demo/live-demo-url.txt"
   screenshots: "demo/screenshots/"
   presentation: "presentation/"
