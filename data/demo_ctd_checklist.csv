@@ -1,0 +1,31 @@
+Module,Document,Status
+Module 1,Application form,Present
+Module 1,Prescribing information (SmPC/PI),Present
+Module 1,Labelling information,Present
+Module 1,Administrative documents,Present
+Module 2,Quality Overall Summary (QOS),Present
+Module 2,Nonclinical Overview,Present
+Module 2,Clinical Overview,Present
+Module 2,Nonclinical written and tabulated summaries,Missing
+Module 2,Clinical Summary,Present
+Module 3,Drug substance (active pharmaceutical ingredient) information,Present
+Module 3,Drug product (finished dosage form) information,Present
+Module 3,Manufacturing process description,Present
+Module 3,Control of materials,Present
+Module 3,Process validation data,Missing
+Module 3,Specifications (drug substance),Present
+Module 3,Specifications (drug product),Present
+Module 3,Analytical procedures and validation,Present
+Module 3,Stability data (drug substance),Present
+Module 3,Stability data (drug product),Missing
+Module 4,Pharmacology studies,Present
+Module 4,Pharmacokinetic studies,Present
+Module 4,Toxicology studies (single dose),Present
+Module 4,Toxicology studies (repeat dose),Present
+Module 4,Genotoxicity studies,Not Applicable
+Module 4,Reproductive toxicity studies,Not Applicable
+Module 5,Clinical pharmacology reports,Present
+Module 5,Bioavailability and bioequivalence studies,Present
+Module 5,Efficacy study reports,Present
+Module 5,Safety study reports,Missing
+Module 5,Literature references,Present

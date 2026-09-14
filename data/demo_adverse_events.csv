@@ -1,0 +1,101 @@
+Patient_ID,Drug,Adverse_Event,Age,Sex,Seriousness
+P001,Atorvastatin,Myopathy,58,M,Yes
+P002,Atorvastatin,Myopathy,63,F,Yes
+P003,Atorvastatin,Myopathy,71,M,Yes
+P004,Atorvastatin,Myopathy,55,F,No
+P005,Atorvastatin,Myopathy,67,M,Yes
+P006,Atorvastatin,Headache,45,F,No
+P007,Atorvastatin,Nausea,52,M,No
+P008,Atorvastatin,Nausea,49,F,No
+P009,Atorvastatin,Rash,60,M,No
+P010,Atorvastatin,Liver Toxicity,66,F,Yes
+P011,Atorvastatin,Liver Toxicity,72,M,Yes
+P012,Atorvastatin,Liver Toxicity,58,F,Yes
+P013,Metformin,Nausea,55,F,No
+P014,Metformin,Nausea,62,M,No
+P015,Metformin,Nausea,48,F,No
+P016,Metformin,Nausea,70,M,No
+P017,Metformin,Nausea,53,F,No
+P018,Metformin,Nausea,44,M,No
+P019,Metformin,Diarrhoea,57,F,No
+P020,Metformin,Diarrhoea,65,M,No
+P021,Metformin,Diarrhoea,50,F,No
+P022,Metformin,Diarrhoea,61,M,No
+P023,Metformin,Headache,59,F,No
+P024,Metformin,Rash,47,M,No
+P025,Metformin,Myopathy,68,F,No
+P026,Amoxicillin,Rash,34,F,No
+P027,Amoxicillin,Rash,28,M,No
+P028,Amoxicillin,Rash,41,F,No
+P029,Amoxicillin,Rash,19,M,No
+P030,Amoxicillin,Rash,55,F,No
+P031,Amoxicillin,Anaphylaxis,32,M,Yes
+P032,Amoxicillin,Anaphylaxis,26,F,Yes
+P033,Amoxicillin,Anaphylaxis,44,M,Yes
+P034,Amoxicillin,Nausea,38,F,No
+P035,Amoxicillin,Nausea,52,M,No
+P036,Amoxicillin,Diarrhoea,47,F,No
+P037,Amoxicillin,Headache,30,M,No
+P038,Warfarin,Bleeding,72,F,Yes
+P039,Warfarin,Bleeding,68,M,Yes
+P040,Warfarin,Bleeding,75,F,Yes
+P041,Warfarin,Bleeding,80,M,Yes
+P042,Warfarin,Bleeding,65,F,Yes
+P043,Warfarin,Bleeding,77,M,Yes
+P044,Warfarin,Nausea,64,F,No
+P045,Warfarin,Headache,70,M,No
+P046,Warfarin,Rash,58,F,No
+P047,Ibuprofen,Nausea,40,M,No
+P048,Ibuprofen,Nausea,35,F,No
+P049,Ibuprofen,Nausea,50,M,No
+P050,Ibuprofen,Gastrointestinal Bleeding,55,F,Yes
+P051,Ibuprofen,Gastrointestinal Bleeding,62,M,Yes
+P052,Ibuprofen,Gastrointestinal Bleeding,48,F,Yes
+P053,Ibuprofen,Gastrointestinal Bleeding,70,M,Yes
+P054,Ibuprofen,Headache,38,F,No
+P055,Ibuprofen,Rash,45,M,No
+P056,Ibuprofen,Renal Impairment,67,F,Yes
+P057,Ibuprofen,Renal Impairment,73,M,Yes
+P058,Ibuprofen,Renal Impairment,58,F,Yes
+P059,Lisinopril,Dry Cough,54,M,No
+P060,Lisinopril,Dry Cough,61,F,No
+P061,Lisinopril,Dry Cough,47,M,No
+P062,Lisinopril,Dry Cough,68,F,No
+P063,Lisinopril,Dry Cough,55,M,No
+P064,Lisinopril,Dry Cough,72,F,No
+P065,Lisinopril,Dry Cough,50,M,No
+P066,Lisinopril,Angioedema,63,F,Yes
+P067,Lisinopril,Angioedema,58,M,Yes
+P068,Lisinopril,Angioedema,71,F,Yes
+P069,Lisinopril,Headache,44,M,No
+P070,Lisinopril,Nausea,52,F,No
+P071,Lisinopril,Rash,39,M,No
+P072,Aspirin,Gastrointestinal Bleeding,65,F,Yes
+P073,Aspirin,Gastrointestinal Bleeding,71,M,Yes
+P074,Aspirin,Gastrointestinal Bleeding,58,F,Yes
+P075,Aspirin,Tinnitus,62,M,No
+P076,Aspirin,Tinnitus,55,F,No
+P077,Aspirin,Tinnitus,68,M,No
+P078,Aspirin,Nausea,47,F,No
+P079,Aspirin,Headache,53,M,No
+P080,Aspirin,Rash,40,F,No
+P081,Metoprolol,Bradycardia,67,M,Yes
+P082,Metoprolol,Bradycardia,72,F,Yes
+P083,Metoprolol,Bradycardia,58,M,Yes
+P084,Metoprolol,Fatigue,55,F,No
+P085,Metoprolol,Fatigue,63,M,No
+P086,Metoprolol,Fatigue,70,F,No
+P087,Metoprolol,Nausea,48,M,No
+P088,Metoprolol,Headache,54,F,No
+P089,Metoprolol,Rash,61,M,No
+P090,Amlodipine,Peripheral Oedema,60,F,No
+P091,Amlodipine,Peripheral Oedema,68,M,No
+P092,Amlodipine,Peripheral Oedema,55,F,No
+P093,Amlodipine,Peripheral Oedema,73,M,No
+P094,Amlodipine,Headache,50,F,No
+P095,Amlodipine,Nausea,44,M,No
+P096,Amlodipine,Flushing,57,F,No
+P097,Amlodipine,Flushing,63,M,No
+P098,Amlodipine,Rash,48,F,No
+P099,Omeprazole,Headache,45,M,No
+P100,Omeprazole,Headache,52,F,No
