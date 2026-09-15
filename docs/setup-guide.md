@@ -1,79 +1,82 @@
-# Setup Guide
+# PharmaGuard AI — Setup Guide
 
-> **This file is read by the automated evaluation pipeline. Be precise and complete.**
+## 1. Overview
 
-## Prerequisites
+PharmaGuard AI is an AI-powered pharmacovigilance and regulatory submission readiness platform developed for the IBM Bob AI Innovation Hackathon.
 
-Before you begin, ensure you have the following installed:
+The application provides two primary capabilities:
 
-- [ ] [e.g., Python 3.11+]
-- [ ] [e.g., Node.js 18+]
-- [ ] [e.g., Docker Desktop]
-- [ ] [e.g., An IBM Cloud account with watsonx.ai access]
+1. **Drug Safety Signal Detection** — identifies potential drug–adverse-event safety signals from pharmacovigilance data using statistical signal detection methods.
+2. **Regulatory Submission Readiness** — evaluates the completeness of regulatory submission information and identifies missing or incomplete components.
 
-## Environment Variables
+The application also includes an **AI Copilot** that uses IBM watsonx.ai to provide an interactive natural-language interface for pharmacovigilance and regulatory workflows.
 
-Copy `.env.example` to `.env` and fill in the values:
+The application is implemented as a Streamlit web application using Python.
 
-```bash
-cp .env.example .env
-```
+---
 
-| Variable | Description | Required |
-|---|---|---|
-| `WATSONX_API_KEY` | Your IBM watsonx.ai API key | Yes |
-| `WATSONX_PROJECT_ID` | Your watsonx.ai project ID | Yes |
-| `DATABASE_URL` | PostgreSQL connection string | Yes |
-| `SLACK_WEBHOOK_URL` | Slack webhook for alerts | No |
+## 2. Prerequisites
 
-## Installation
+Before running PharmaGuard AI, ensure the following are installed:
 
-```bash
-# 1. Clone the repository
-git clone https://github.com/[your-org]/[your-repo].git
-cd [your-repo]
+- Python 3.10 or later
+- Git
+- A modern web browser
+- Internet connection for IBM watsonx.ai functionality
 
-# 2. Install backend dependencies
-[your command — e.g.: pip install -r requirements.txt]
+The application is designed to run on Windows, macOS, and Linux systems.
 
-# 3. Install frontend dependencies (if applicable)
-[your command — e.g.: cd frontend && npm install]
+---
 
-# 4. Set up the database (if applicable)
-[your command — e.g.: python manage.py migrate]
-```
+## 3. Repository Structure
 
-## Running the Application
+The main project structure is:
 
-```bash
-# Start the backend
-[your command — e.g.: uvicorn app.main:app --reload]
+```text
+bob-ai-hackathon-PharmaGuard-AI/
+│
+├── app.py
+├── pages/
+│   ├── home.py
+│   ├── signal_detection.py
+│   ├── submission_readiness.py
+│   └── ai_copilot.py
+│
+├── src/
+│   ├── app.py
+│   ├── home.py
+│   ├── signal_detection.py
+│   ├── submission_readiness.py
+│   └── ai_copilot.py
+│
+├── data/
+├── docs/
+├── demo/
+├── presentation/
+├── requirements.txt
+├── submission.yaml
+└── README.md
 
-# Start the frontend (in a separate terminal, if applicable)
-[your command — e.g.: cd frontend && npm run dev]
-```
+**## 4. Run the Application**
 
-The application will be available at: `http://localhost:[PORT]`
+PharmaGuard AI is a Streamlit web application. The main application is started using the `app.py` entry point.
 
-## Running Tests
+After activating the virtual environment and installing the required dependencies, run the following command from the project root directory:
 
-```bash
-[your test command — e.g.: pytest tests/ -v]
-```
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+streamlit run app.py```
 
-## Quick Demo (Optional)
+The final command:
+```powershell
+**streamlit run app.py**```
+is the command that actually launches the PharmaGuard AI application.
 
-If you have a demo script or sample data to showcase the project quickly:
+The complete sequence for running the application on Windows is:
 
-```bash
-[e.g.: python demo/seed_demo_data.py]
-[e.g.: open http://localhost:8000/demo]
-```
-
-## Troubleshooting
-
-| Issue | Solution |
-|---|---|
-| [e.g., `ModuleNotFoundError`] | [e.g., Run `pip install -r requirements.txt` again] |
-| [e.g., Database connection refused] | [e.g., Ensure PostgreSQL is running: `docker compose up db`] |
-| [e.g., watsonx.ai 401 error] | [e.g., Check `WATSONX_API_KEY` in your `.env` file] |
+cd <project-directory>
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+streamlit run app.py
