@@ -2,20 +2,49 @@
 
 ## Background
 
-[Describe the broader context. What domain or industry does this problem belong to? What situation creates the problem?]
+Pharmacovigilance is essential for identifying, evaluating, and communicating adverse drug reactions and other potential drug-safety concerns after medicines reach the market. As the volume of drug and adverse-event information increases, manually reviewing large datasets and identifying meaningful safety signals can become time-consuming and difficult.
 
-## The Problem
+In parallel, pharmaceutical teams preparing regulatory submissions must ensure that their information is complete, consistent, and ready for review. Missing information, inconsistent documentation, and manual checking can increase the effort required for submission preparation.
 
-[State the problem clearly and specifically. Avoid vague statements like "things are slow" — instead say "Operations teams spend an average of 45 minutes per incident diagnosing pipeline failures because logs are scattered across 6 different tools."]
+## Who Experiences the Problem?
 
-## Who is Affected
+The problem primarily affects:
 
-[Describe the specific user or persona experiencing this problem. Be concrete — not "developers" but "backend engineers managing CI/CD pipelines in enterprises with 50+ microservices."]
+- Pharmacovigilance professionals
+- Drug-safety and clinical-safety teams
+- Regulatory affairs professionals
+- Pharmaceutical researchers
+- Students and researchers working with pharmacovigilance datasets
+- Teams preparing regulatory submission documentation
 
-## Why It Matters
+## Key Challenges
 
-[What is the cost of this problem? Lost time? Revenue? Safety risk? Frustration? Quantify if possible.]
+Traditional workflows can require users to manually inspect large numbers of drug-event combinations, identify potentially important safety signals, and organize the findings for further evaluation.
 
-## Why Existing Solutions Fall Short
+This creates several challenges:
 
-[Briefly explain what people currently do and why it doesn't fully solve the problem. This sets up why your solution is needed.]
+1. **Large volumes of safety information** can be difficult to review manually.
+2. **Potential safety signals may require systematic analysis** before they can be prioritized for further investigation.
+3. **Regulatory submission readiness requires checking multiple fields and requirements**, which can be repetitive when performed manually.
+4. **Different tasks are often handled using separate tools**, making the overall workflow less convenient.
+5. **Interpreting analytical results can require additional expertise**, particularly for users who are not experienced with statistical pharmacovigilance methods.
+
+## Why This Matters
+
+Early identification and prioritization of potential drug-safety signals can support more efficient pharmacovigilance workflows. Similarly, improving submission-readiness checks can help pharmaceutical teams identify incomplete information before a regulatory submission is prepared.
+
+There is therefore an opportunity for an AI-assisted platform that brings analytical signal detection, AI-assisted interaction, and regulatory submission-readiness support into a single user-facing application.
+
+## Project Objective
+
+PharmaGuard AI was developed to provide an integrated AI-assisted environment for pharmaceutical safety and regulatory workflows.
+
+The objective is to help users:
+
+- Analyse drug-event combinations systematically.
+- Identify and prioritize potential safety signals.
+- Interact with an AI-assisted pharmacovigilance interface.
+- Assess regulatory submission readiness.
+- Understand analytical findings through a user-friendly web interface.
+
+PharmaGuard AI is intended as a decision-support and research-oriented tool. Its outputs are intended to support professional review and should not replace qualified pharmacovigilance, clinical, or regulatory judgment.
